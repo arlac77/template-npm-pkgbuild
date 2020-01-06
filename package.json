@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "npm-pkgbuild": "^6.11.3"
+  },
+  "pacman": {
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "npx npm-pkgbuild --pkgver ${nextRelease.version} --npm-dist --npm-modules pkgbuild pacman makepkg"
+        }
+      ]
+    ]
+  }
+}
