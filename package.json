@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "npm-pkgbuild": "^6.11.3",
+    "npm-pkgbuild": "^6.11.4",
     "@semantic-release/exec": "^3.3.8"
   },
   "pacman": {
