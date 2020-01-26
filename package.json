@@ -8,17 +8,10 @@
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/exec",
-        {
-          "publishCmd": "npx npm-pkgbuild --pkgver ${nextRelease.version} --npm-dist --npm-modules pkgbuild pacman makepkg"
-        }
-      ]
+      "@semantic-release/release-notes-generator"
     ]
   },
   "template" : {
-    "usedBy": [ "arlac77/npm-package-template-kronos-app" ]
+    "usedBy": [ "arlac77/npm-package-template-kronos-app", "arlac77/npm-package-template-svelte-app" ]
   }
-
 }
