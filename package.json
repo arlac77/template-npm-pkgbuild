@@ -12,6 +12,7 @@
   },
   "template": {
     "usedBy": [
+      "arlac77/hook-ci",
       "arlac77/template-kronos-app",
       "arlac77/template-web-app"
     ]
