@@ -1,11 +1,12 @@
 {
   "devDependencies": {
-    "npm-pkgbuild": "^6.12.90",
+    "npm-pkgbuild": "^7.17.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/release-notes-generator": "^10.0.3"
   },
-  "pacman": {},
+  "pacman": "--delete--",
+  "pkg" : {},
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -19,7 +20,8 @@
       "arlac77/npm-dep-graph",
       "arlac77/template-kronos-app",
       "arlac77/template-web-app",
-      "konsumation/konsum"
+      "konsumation/konsum",
+      "konsumation/frontend-svelte-svelte"
     ]
   }
 }
