@@ -6,7 +6,8 @@
     "@semantic-release/release-notes-generator": "^10.0.3"
   },
   "pacman": "--delete--",
-  "pkg" : {},
+  "systemd": "--delete--",
+  "pkg" : { "content": {}},
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -18,7 +19,8 @@
   "template": {
     "usedBy": [
       "konsumation/konsum",
-      "konsumation/frontend-svelte"
+      "konsumation/frontend-svelte",
+      "template-tools/template-sync-hook"
     ]
   }
 }
