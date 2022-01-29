@@ -1,4 +1,5 @@
 {
+
   "devDependencies": {
     "npm-pkgbuild": "^6.12.98",
     "@semantic-release/exec": "^6.0.3",
