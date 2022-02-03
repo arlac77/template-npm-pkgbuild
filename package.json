@@ -7,7 +7,9 @@
   },
   "pacman": "--delete--",
   "systemd": "--delete--",
-  "pkg" : { "content": {}},
+  "pkg": {
+    "content": {}
+  },
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
@@ -20,7 +22,10 @@
     "usedBy": [
       "konsumation/konsum",
       "konsumation/frontend-svelte",
-      "template-tools/template-sync-hook"
+      "template-tools/template-sync-hook",
+      "arlac77/npm-dep-graph",
+      "arlac77/template-kronos-app",
+      "arlac77/template-web-app"
     ]
   }
 }
