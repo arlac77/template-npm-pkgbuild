@@ -20,12 +20,13 @@
   },
   "template": {
     "usedBy": [
-      "konsumation/konsum",
-      "konsumation/frontend-svelte",
-      "template-tools/template-sync-hook",
+      "arlac77/mf-styling",
       "arlac77/npm-dep-graph",
       "arlac77/template-kronos-app",
-      "arlac77/template-web-app"
+      "arlac77/template-web-app",
+      "konsumation/frontend-svelte",
+      "konsumation/konsum",
+      "template-tools/template-sync-hook"
     ]
   }
 }
