@@ -19,7 +19,12 @@
           "publishCmd": "npx npm-pkgbuild --available --continue --verbose"
         }
       ],
-      "@semantic-release/github"
+      [
+        "@semantic-release/github",
+        {
+          "assets": []
+        }
+      ]
     ]
   },
   "template": {
