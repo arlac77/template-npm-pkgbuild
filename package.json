@@ -22,34 +22,34 @@
       [
         "@semantic-release/github",
         {
-         assets: [
+         "assets": [
           {
-            path: "dist/*.deb",
-            label: "any Debian Package"
+            "path": "dist/*.deb",
+            "label": "any Debian Package"
           },
           {
-            path: "dist/*any.pkg.*",
-            label: "any Arch Linux Package"
+            "path": "dist/*any.pkg.*",
+            "label": "any Arch Linux Package"
           },
           {
-            path: "dist/*x86_64.pkg.*",
-            label: "x86_64 Arch Linux Package"
+            "path": "dist/*x86_64.pkg.*",
+            "label": "x86_64 Arch Linux Package"
           },
           {
-            path: "dist/*aarch64.pkg.*",
-            label: "arm64 Arch Linux Package"
+            "path": "dist/*aarch64.pkg.*",
+            "label": "arm64 Arch Linux Package"
           },
           {
-            path: "dist/*noarch.rpm",
-            label: "noarch RPM"
+            "path": "dist/*noarch.rpm",
+            "label": "noarch RPM"
           },
           {
-            path: "dist/*x86_64.rpm",
-            label: "x86_64 RPM"
+            "path": "dist/*x86_64.rpm",
+            "label": "x86_64 RPM"
           },
           {
-            path: "dist/*aarch64.rpm",
-            label: "arm64 RPM"
+            "path": "dist/*aarch64.rpm",
+            "label": "arm64 RPM"
           }
         ]
         }
