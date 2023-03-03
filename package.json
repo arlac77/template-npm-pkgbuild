@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "npm-pkgbuild": "^11.5.10",
+    "npm-pkgbuild": "^11.5.12",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/release-notes-generator": "^10.0.3"
