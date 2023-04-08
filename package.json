@@ -71,7 +71,6 @@
       "arlac77/template-web-app",
       "konsumation/frontend-svelte",
       "konsumation/konsum",
-      "konsumation/konsum-frontend-svelte",
       "template-tools/template-sync-hook"
     ]
   }
