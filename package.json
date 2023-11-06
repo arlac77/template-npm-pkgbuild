@@ -3,7 +3,7 @@
     "npm-pkgbuild": "^13.0.2",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/release-notes-generator": "^12.0.1"
+    "@semantic-release/release-notes-generator": "^12.1.0"
   },
   "pkgbuild": {
     "content": {}
