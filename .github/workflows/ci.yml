@@ -1,5 +1,9 @@
+name: CI
+"on":
+  push:
 jobs:
   release:
+    runs-on: ubuntu-latest
     steps:
       - name: Dependencies
         run: >
@@ -11,3 +15,8 @@ jobs:
           https://github.com/ThePoorPilot/pacman-utils/releases/download/5.2.2-3_2.31-0/pacman-utils_5.2.2-3_amd64.deb
 
           sudo apt-get install -f ./pacman-utils_5.2.2-3_amd64.deb
+      - run: npx semantic-release
+        env:
+          PKGBUILD_PUBLISH: ${{ secrets.PKGBUILD_PUBLISH }}
+          PKGEXT: '.pkg.tar.xz'
+  
