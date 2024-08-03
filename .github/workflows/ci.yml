@@ -3,7 +3,7 @@ name: CI
   push:
 jobs:
   release:
-    runs-on: [self-hosted, linux, ARM64, --delete-- ubuntu-latest]
+    runs-on: [self-hosted, linux, ARM64]
     steps:
       - name: Dependencies
         run: |2
