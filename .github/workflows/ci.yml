@@ -5,7 +5,7 @@ jobs:
   release:
     runs-on: [self-hosted, linux, ARM64]
     steps:
-      - name: Dependencies
+      - name: install dependencies
         run: |2
           if [ ! -f /usr/bin/pacman ]
           then
