@@ -72,6 +72,7 @@
       "arlac77/svelte-time-series",
       "arlac77/template-kronos-app",
       "arlac77/template-web-app",
+      "k0nsti/browser-stream-util",
       "konsumation/konsum"
     ]
   }
