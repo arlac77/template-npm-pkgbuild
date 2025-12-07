@@ -17,7 +17,7 @@
       [
         "@semantic-release/exec",
         {
-          "publishCmd": "npx npm-pkgbuild --publish dist"
+          "publishCmd": "npx npm-pkgbuild --publish dist {{npm-pkgbuild.options}}"
         }
       ],
       [
@@ -58,6 +58,11 @@
     ]
   },
   "template": {
+    "properties": {
+      "npm-pkgbuild": {
+        "options" : ""
+      }
+    },
     "usedBy": [
       "Kronos-Integration/svelte-components",
       "arlac77/mf-styling",
